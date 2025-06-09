@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando do Campo à Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Festejando do Campo à Cidade</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#programacao">Programação</a>
+            <a href="#atrações">Atrações</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <h2>Venha Celebrar Conosco!</h2>
+        <p>Uma mistura vibrante de tradição do campo e energia urbana!</p>
+        <a href="#programacao" class="btn">Confira a Programação Completa</a>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="content">
+            <h2>Sobre o Evento</h2>
+            <p>O evento "Festejando do Campo à Cidade" é uma experiência única que reúne o melhor da cultura rural e urbana. Durante 3 dias, você poderá saborear pratos típicos, se divertir com danças tradicionais e ainda curtir shows incríveis de artistas locais e internacionais!</p>
+            <p><strong>Data: 15 a 17 de agosto de 2025</strong></p>
+            <p><strong>Local: Parque de Eventos da Cidade</strong></p>
+            <img src="https://via.placeholder.com/800x400?text=Evento+Campo+%26+Cidade" alt="Evento Campo e Cidade">
+        </div>
+    </section>
+
+    <!-- Seção Programação -->
+    <section id="programacao" class="programacao">
+        <h2>Programação</h2>
+        <div class="programacao-item">
+            <h3>Dia 1 - Do Campo</h3>
+            <ul>
+                <li>10h - Abertura com Dança Folclórica</li>
+                <li>12h - Feirinha de Comidas Típicas</li>
+                <li>15h - Show de Forró com Banda "Raiz Sertaneja"</li>
+                <li>18h - Concurso de Dança Caipira</li>
+            </ul>
+        </div>
+        <div class="programacao-item">
+            <h3>Dia 2 - À Cidade</h3>
+            <ul>
+                <li>14h - Apresentação de Hip Hop</li>
+                <li>16h - DJ's da Cidade com Música Eletrônica</li>
+                <li>19h - Show com Banda "Sertanejo Eletrônico"</li>
+                <li>22h - Festa de Encerramento</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção Atrações -->
+    <section id="atrações" class="atrações">
+        <h2>Atrações Confirmadas</h2>
+        <div class="atracao">
+            <img src="https://via.placeholder.com/400x250?text=Artista+1" alt="Artista 1">
+            <h3>Banda Sertaneja Raiz</h3>
+            <p>Uma banda que traz o melhor do sertanejo tradicional, com muita animação e energia.</p>
+        </div>
+        <div class="atracao">
+            <img src="https://via.placeholder.com/400x250?text=Artista+2" alt="Artista 2">
+            <h3>DJ Lucas Urbano</h3>
+            <p>O DJ da cidade que vai fazer a galera dançar até o amanhecer com os melhores beats eletrônicos.</p>
+        </div>
+        <div class="atracao">
+            <img src="https://via.placeholder.com/400x250?text=Artista+3" alt="Artista 3">
+            <h3>Banda Forró Eletrônico</h3>
+            <p>O forró eletrônico vai unir o campo e a cidade com um ritmo contagiante!</p>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section id="galeria" class="galeria">
+        <h2>Galeria de Fotos</h2>
+        <div class="galeria-grid">
+            <img src="https://via.placeholder.com/300x200?text=Foto+1" alt="Foto 1">
+            <img src="https://via.placeholder.com/300x200?text=Foto+2" alt="Foto 2">
+            <img src="https://via.placeholder.com/300x200?text=Foto+3" alt="Foto 3">
+            <img src="https://via.placeholder.com/300x200?text=Foto+4" alt="Foto 4">
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="E-mail" required>
+            <textarea placeholder="Mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Festejando do Campo à Cidade</p>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
